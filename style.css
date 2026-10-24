@@ -250,7 +250,7 @@ section{
     justify-content: center;
     align-items: center;
     background-color: var(--main-color);
-    height: 600px;
+    height: 300px;
     border-radius: 3rem;
     cursor: pointer;
     border: 5px solid transparent;
@@ -291,7 +291,7 @@ section{
 .project-box{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax
-    (350px, 1fr));
+    (175px, 1fr));
     place-items: center;
     gap: 3rem;
     row-gap: 5rem;
@@ -318,7 +318,7 @@ section{
     transform: scale(1.02);
 }
 .project-card img{
-    max-width: 300px;
+    max-width: 150px;
     border-radius: 2rem;
     object-fit: cover;
 }
