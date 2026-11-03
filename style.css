@@ -336,7 +336,7 @@ section{
     margin-bottom: 3rem;
     color: var(--text-color);
 }
-.contact form{
+.contact h4{
     display: center;
     align-items: center;
     justify-content: center;
