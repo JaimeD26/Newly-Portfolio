@@ -241,7 +241,7 @@ section{
 .services-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax
-    (150px, 1fr));
+    (300px, 1fr));
     align-items: center;
     gap: 2.5rem;
 }
@@ -250,7 +250,7 @@ section{
     justify-content: center;
     align-items: center;
     background-color: var(--main-color);
-    height: 300px;
+    height: 600px;
     border-radius: 3rem;
     cursor: pointer;
     border: 5px solid transparent;
@@ -407,8 +407,5 @@ section{
     }
     .about img{
         width: 52vw;
-    }
-    .contact form{
-        flex-direction: column;
     }
 }
